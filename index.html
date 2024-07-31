@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typewriter Effect</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            font-family: 'Arial', sans-serif;
+            font-size: 5rem;
+            color: #ff5722;
+            overflow: hidden; /* Ensures text is hidden until animated */
+            border-right: .15em solid #ff5722; /* Creates the cursor effect */
+            white-space: nowrap; /* Prevents text from wrapping */
+            margin: 0 auto; /* Centers the text */
+            letter-spacing: .15em; /* Spacing between characters */
+            animation: typing 3s steps(30, end), blink-caret .75s step-end infinite;
+        }
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+        @keyframes blink-caret {
+            from, to { border-color: transparent; }
+            50% { border-color: #ff5722; }
+        }
+    </style>
+</head>
+<body>
+    <h1>i love black niggers</h1>
+</body>
+</html>
